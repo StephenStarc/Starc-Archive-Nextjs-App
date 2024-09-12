@@ -1,50 +1,24 @@
-# React + TypeScript + Vite
+# Starc Archive App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my brand new Archive App. I can make posts within the app itself, and they are stored in the Firebase backend. I can create both public and private posts in one app.
+"Of course, I am the only one who can access the private posts. The website has all the necessary components to function as a blog post website, but it still needs a lot of work, and new features, and, truth be told, most of the TypeScript errors are just ignored using comments without checking the type in that file. It definitely needs a lot of adjustments to become a production site, but it is a working site, that's enough for now. I used a lot of AI tools to build in 6 hours - V0, Claude, Chatgpt, Cursor, and codium. I am currently learning Next.js. Once I complete it, I will rebuild the site completely using Next.js and add new features. Until then, this is my current blog page app - Starc Archive."
 
-Currently, two official plugins are available:
+# Tech Stack used
+1. React
+2. React Router Dom
+3. Firebase - Backend
+4. Quill - Rich text editor with image upload
+5. shadcn/ui - Ui components
+6. Typescirpt
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Usage
+cd app
+npm install
+npm run dev
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+# Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Note that this is a basic template and you may need to customize it to fit your specific project needs.
