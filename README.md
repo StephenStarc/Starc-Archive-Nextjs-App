@@ -1,7 +1,7 @@
 # Starc Archive App
 
 This is my brand new Archive App. I can make posts within the app itself, and they are stored in the Firebase backend. I can create both public and private posts in one app.
-"Of course, I am the only one who can access the private posts. The website has all the necessary components to function as a blog post website, but it still needs a lot of work, and new features, and, truth be told, most of the TypeScript errors are just ignored using comments without checking the type in that file. It definitely needs a lot of adjustments to become a production site, but it is a working site, that's enough for now. I used a lot of AI tools to build in 6 hours - V0, Claude, Chatgpt, Cursor, and codium. I am currently learning Next.js. Once I complete it, I will rebuild the site completely using Next.js and add new features. Until then, this is my current blog page app - Starc Archive."
+"Of course, I am the only one who can access the private posts. The website has all the necessary components to function as a blog post website, but it still needs a lot of work, and new features, and, truth be told, most of the TypeScript errors are just ignored using comments without checking the type in that file. It definitely needs a lot of adjustments to become a production site, but it is a working site, that's enough for now. I used a lot of AI tools to build this app in 6 hours - V0, Claude, Chatgpt, Cursor, and codium. I am currently learning Next.js. Once I complete it, I will rebuild the site completely using Next.js and add new features. Until then, this is my current blog page app - Starc Archive."
 
 # Tech Stack used
 1. React
